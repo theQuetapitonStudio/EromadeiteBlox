@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(135deg, #202020, #0c0c0c);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#banner {
+    color: white;
+}
+
+.products {
+    color: white;
+}
+
+.products button {
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(135deg, #fff, #808080);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.products button:hover {
+    transform: scale(1.1);
+}
