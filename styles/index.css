@@ -6,23 +6,46 @@ body {
 
 #banner {
     color: white;
+    margin-bottom: 30px;
 }
 
 .products {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
     color: white;
+}
+
+.products div {
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #151515;
+    transition: transform 0.2s ease;
+}
+
+.products div:hover {
+    transform: scale(1.03);
+}
+
+.products img {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 10px;
 }
 
 .products button {
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px 20px;
     background: linear-gradient(135deg, #fff, #808080);
     border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
 
 .products button:hover {
     transform: scale(1.1);
 }
-
-.products img {
-    border-radius: 10px;
-}
+    
