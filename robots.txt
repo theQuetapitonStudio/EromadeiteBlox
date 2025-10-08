@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://eromadeiteblox.vercel.app/seo/sitemap.xml
