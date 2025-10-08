@@ -48,4 +48,7 @@ body {
 .products button:hover {
     transform: scale(1.1);
 }
-    
+
+#slogan {
+    text-align: justify;
+}
